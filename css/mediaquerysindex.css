@@ -1,0 +1,38 @@
+@media only screen and (max-width: 800px) {
+
+    .navbar{
+        position: relative;
+
+    }
+    .navbar .user-icon {
+        display: none;
+    }
+
+
+    .navbar .menu-bar {
+        display: block;
+        grid-column: 8 / 9;
+        font-size: 2em;
+        cursor: pointer;
+        filter: invert(1);
+    }
+
+    .navbar .menu {
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        align-items: center;
+        margin-top: 38em;
+        transform: translateX(170%);
+        transition: all 1s;
+        overflow: hidden;
+
+
+    }
+
+    .navbar .menu-toggle {
+        transform: translateX(70%);
+    }
+
+}
