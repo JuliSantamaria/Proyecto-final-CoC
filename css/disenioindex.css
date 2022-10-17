@@ -15,7 +15,7 @@ img{
 
 
 .banner{
-    background: linear-gradient(rgba(43, 38, 38, 0.75),rgba(0,0,0,0.75)),url(/icons/hotel.png);
+    background: linear-gradient(rgba(43, 38, 38, 0.75),rgba(0,0,0,0.75)),url(../icons/hotel.png);
     background-size: cover;
     background-position: center;
     height: 100%;
