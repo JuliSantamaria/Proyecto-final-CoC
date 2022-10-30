@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
 }
+
+.banner {
+  max-height: 100vh;
+}
+
 body{
   background-color:antiquewhite;
   font-family: sans-serif;
@@ -57,7 +62,11 @@ body{
 .ubicacion-descripcion{
   padding-bottom: 3%;
 }
-.ubicacion-iframe{
+
+
+#map {
+	height: 500px;
+	width: 100%;
   margin: auto;
 }
 /* FOOTER */
@@ -76,3 +85,4 @@ footer{
   color: black;
   font-size:xx-large;
 }
+
