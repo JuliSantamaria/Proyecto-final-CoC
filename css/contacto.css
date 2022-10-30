@@ -1,4 +1,14 @@
+.contenedor2 {
+    position: static;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
 
 .form {
     width: 100%;
