@@ -8,6 +8,11 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+.banner{
+  height: 100vh;
+}
+
 /* INICIO - Servicios */
 .contenedor{
   background-color: white;
@@ -52,7 +57,7 @@ body{
 }
 .row-3,.row-4,.row-5,.row-6{
   display: flex;
-  width: 90%;
+  width: 100%;
   padding: 5%;
 }
 .lobby,.habitaciones,.cocina,.health-club,.gimnasio,.convenciones,.business{
@@ -137,6 +142,7 @@ body{
 /* INICIO - Footer */
 footer{
   margin-top: auto;
+  height: 30vh;
 }
 .redes{
   margin: 3%;
