@@ -391,6 +391,10 @@ img{
     text-decoration: none;
 }
 
+.contenedor-boton a {
+    color: #fff;
+    text-decoration: none;
+}
 
 /* FOOTER */   
 
