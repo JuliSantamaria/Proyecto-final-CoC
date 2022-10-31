@@ -142,7 +142,7 @@ body{
 /* INICIO - Footer */
 footer{
   margin-top: auto;
-  height: 30vh;
+  background-color: antiquewhite;
 }
 .redes{
   margin: 3%;
